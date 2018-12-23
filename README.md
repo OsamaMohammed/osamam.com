@@ -1,2 +1,0 @@
-# osamam.com
-# osamam.com
