@@ -1,0 +1,13 @@
+{
+  "results": [{
+    "id": "project1",
+    "title": "Private Project 1 - Huawei LTE 4G UPCC EDR Server",
+    "content": "<p>Two applications were developed to help process and maintain data generated from Huawei UPCC called EDR (Enhanced Data Record).</p><p></p><h2 class='post__author'>Problem:</h2><p>Time taken to search for one user inside at least 9.8 GB files per day (UPCC generated files) would take 30-50 minutes, and another 15 minutes to clean and finalize the results in a readable form.</p><p>Data received from UPCC are huge (~9.9 GB/day).</p><p></p><h2 class='post__author'>Solution:</h2><p>Developing a server that listen for new files and instantly processes it, encode it in a smaller data form.</p><p>Developing a client for reading the generated files from the server in high speed.</p><p></p><h2 class='post__author'>Server Development:</h2><p>A server were developed to catch newly received files from Huawei UPCC (EDR files) decode it, and transform it into a smaller, more efficient form for lower data size and high performance in searching.</p><p></p><img src='/static/images/edrServer1.jpg'></img><h2 class='post__author'>Server Results:</h2><p>Files received per day (~9.9 GB) takes only <font class='post__author'>484 MB</font> and it can be compressed up to <font class='post__author'>55 MB</font> for archiving using LZMA2 compression method.</p><p></p><h2 class='post__author'>Client Development:</h2><p>Developing a client to read the processed data in high speed and present the data in a readable format (CSV File).</p><p></p><img src='/static/images/edrServer2.jpg'></img><h2 class='post__author'>Client Result:</h2><p>Data for one user in a day can be obtained in less than <font class='post__author'>10 seconds!</font>. A sample result file can be found <a class='post__author' href='/static/Sample_EDR.csv'>here</a></p><p></p><h2 class='post__author'>Conclusion:</h2><p>Time taken to search and read a user data is now ~10 seconds compared to 30-50 minutes is a huge success.</p><p>Data size is now takes almost <font class='post__author'>4.7%</font> of the original data, and <font class='post__author'>0.05%</font> with compression!.</p><p></p><h2 class='post__author'>Contact us:</h2><p>For more info, please contact us at: <a class='post__author' href='mailto:info@osamam.com'>info@osamam.com</a></p>",
+    "image": "/static/images/4g.jpg",
+    "meta": {
+      "description": "Big Database Processing Client/Server Application for Huawei LTE 4G UPCC EDR",
+      "published": "2018-11-12T12:00:00Z",
+      "author": "Osamah Saadallah M."
+    }
+  }]
+}

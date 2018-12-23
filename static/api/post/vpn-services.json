@@ -1,0 +1,13 @@
+{
+  "results": [{
+    "id": "vpn-services",
+    "title": "VPN Services",
+    "content": "<p>We Provide VPN services in multiple location, now we have Germany, USA, UK locations. We provide high speed VPN connection for Gaming, with the best latency possible from IRAQ. Our VPN supprots Windows, iPhone, iPad, and Android.</p><p>Sample speed:</p><img style='width: 50% !important;' src='/static/images/vpn-speed.jpg'><p>To order, please contact us at: <a class='post__author' href='mailto:info@osamam.com'>info@osamam.com</a></p>",
+    "image": "/static/images/vpn.jpg",
+    "meta": {
+      "description": "Providing VPN services in multiple locations (Germany, USA, UK).",
+      "published": "2018-09-01T12:00:00Z",
+      "author": "Osamah Saadallah M."
+    }
+  }]
+}
